@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Проекты BuildPro — портфолио строительной компании</title>
+<meta name="description" content="Каталог реализованных проектов BuildPro: частные дома, квартиры, коммерческие объекты и реконструкция.">
+<meta property="og:title" content="Проекты BuildPro — портфолио строительной компании">
+<meta property="og:description" content="Более 250 сданных объектов с 2013 года: частные дома, квартиры, коммерческая недвижимость, реконструкция.">
+<meta property="og:type" content="website">
+<meta property="og:image" content="https://images.unsplash.com/photo-1600585154340-be6161a56a0c?w=1200&q=80&auto=format&fit=crop">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="theme-color" content="#1c1a17">
+<link rel="icon" href="favicon.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Archivo:wght@400;500;600;700;800;900&family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,500;0,9..144,600;1,9..144,400;1,9..144,500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+<link rel="stylesheet" href="css/responsive.css">
+</head>
+<body>
+<a href="#main" class="skip-link">К основному контенту</a>
+
+<header class="site-nav" id="top">
+  <div class="nav-inner">
+    <a href="index.html" class="brand" aria-label="BuildPro — на главную">
+      <span class="brand-mark"></span>BuildPro
+    </a>
+    <nav class="nav-links" aria-label="Главное меню" id="navLinks">
+      <a href="index.html#about">О компании</a>
+      <a href="index.html#services">Услуги</a>
+      <a href="projects.html" class="current">Проекты</a>
+      <a href="index.html#process">Процесс</a>
+      <a href="index.html#contacts">Контакты</a>
+      <a href="index.html#cta" class="btn btn-primary btn-nav">Получить расчёт</a>
+    </nav>
+    <button type="button" class="burger" aria-label="Открыть меню" aria-expanded="false" id="burger">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</header>
+
+<main id="main">
+
+<section class="page-head">
+  <div class="wrap">
+    <nav class="breadcrumbs" aria-label="Хлебные крошки">
+      <a href="index.html">Главная</a> / <span>Проекты</span>
+    </nav>
+    <div class="page-head-row">
+      <div>
+        <span class="kicker">Каталог</span>
+        <h1 class="display">Проекты.</h1>
+      </div>
+      <p class="lead">Более 250 сданных объектов с 2013 года. Ниже — избранные работы: частные дома, квартиры, коммерческая недвижимость и реконструкция.</p>
+    </div>
+  </div>
+</section>
+
+<section class="filters" aria-label="Фильтры проектов">
+  <div class="wrap filters-row">
+    <div class="chips" role="tablist" id="filterChips">
+      <button type="button" class="chip active" data-filter="all" role="tab" aria-selected="true">Все проекты</button>
+      <button type="button" class="chip" data-filter="house" role="tab" aria-selected="false">Частные дома</button>
+      <button type="button" class="chip" data-filter="apart" role="tab" aria-selected="false">Квартиры</button>
+      <button type="button" class="chip" data-filter="commerce" role="tab" aria-selected="false">Коммерческие объекты</button>
+      <button type="button" class="chip" data-filter="reconstruct" role="tab" aria-selected="false">Реконструкция</button>
+    </div>
+    <span class="count">Показано: <b id="filterCount">12</b></span>
+  </div>
+</section>
+
+<section class="grid-section">
+  <div class="wrap">
+    <div class="projects-grid projects-grid-3" id="projectsGrid">
+
+      <article class="project-card" data-cat="house">
+        <div class="project-photo" style="background-image:url('https://images.unsplash.com/photo-1600585154340-be6161a56a0c?w=1400&q=80&auto=format&fit=crop');"></div>
+        <div class="project-meta"><span class="cat">Частный дом</span><span class="year">2024</span></div>
+        <h3>Дом «Терраса»</h3>
+        <div class="project-params"><span><b>320</b> м²</span><span><b>9 мес</b></span><span>Мск. обл., Истра</span></div>
+        <p class="project-desc">Двухэтажный дом с эксплуатируемой кровлей, панорамным остеклением и подземным гаражом.</p>
+      </article>
+
+      <article class="project-card" data-cat="house">
+        <div class="project-photo" style="background-image:url('https://images.unsplash.com/photo-1613977257363-707ba9348227?w=1400&q=80&auto=format&fit=crop');"></div>
+        <div class="project-meta"><span class="cat">Частный дом</span><span class="year">2023</span></div>
+        <h3>Загородный дом «Клён»</h3>
+        <div class="project-params"><span><b>260</b> м²</span><span><b>10 мес</b></span><span>Новорижское</span></div>
+        <p class="project-desc">Каркасный дом в скандинавском стиле с камином и панорамной террасой.</p>
+      </article>
+
+      <article class="project-card" data-cat="house">
+        <div class="project-photo" style="background-image:url('https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?w=1400&q=80&auto=format&fit=crop');"></div>
+        <div class="project-meta"><span class="cat">Частный дом</span><span class="year">2022</span></div>
+        <h3>Дом «Монолит»</h3>
+        <div class="project-params"><span><b>410</b> м²</span><span><b>12 мес</b></span><span>Санкт-Петербург</span></div>
+        <p class="project-desc">Монолитный дом в стиле современного минимализма с бассейном и котельной.</p>
+      </article>
+
+      <article class="project-card" data-cat="apart">
+        <div class="project-photo" style="background-image:url('https://images.unsplash.com/photo-1560448204-e02f11c3d0e2?w=1400&q=80&auto=format&fit=crop');"></div>
+        <div class="project-meta"><span class="cat">Квартира</span><span class="year">2024</span></div>
+        <h3>Ремонт в ЖК «Резиденция»</h3>
+        <div class="project-params"><span><b>96</b> м²</span><span><b>5 мес</b></span><span>Москва</span></div>
+        <p class="project-desc">Дизайнерский ремонт трёхкомнатной квартиры с перепланировкой и итальянской мебелью.</p>
+      </article>
+
+      <article class="project-card" data-cat="apart">
+        <div class="project-photo" style="background-image:url('https://images.unsplash.com/photo-1600566753190-17f0baa2a6c3?w=1400&q=80&auto=format&fit=crop');"></div>
+        <div class="project-meta"><span class="cat">Квартира</span><span class="year">2025</span></div>
+        <h3>Квартира-студия «Лофт»</h3>
+        <div class="project-params"><span><b>58</b> м²</span><span><b>3 мес</b></span><span>Москва, ЗАО</span></div>
+        <p class="project-desc">Индустриальная студия с открытыми коммуникациями и микроцементом на стенах.</p>
+      </article>
+
+      <article class="project-card" data-cat="apart">
+        <div class="project-photo" style="background-image:url('https://images.unsplash.com/photo-1600585154526-990dced4db0d?w=1400&q=80&auto=format&fit=crop');"></div>
+        <div class="project-meta"><span class="cat">Квартира</span><span class="year">2023</span></div>
+        <h3>Пентхаус «Панорама»</h3>
+        <div class="project-params"><span><b>184</b> м²</span><span><b>7 мес</b></span><span>Москва-Сити</span></div>
+        <p class="project-desc">Дизайнерский пентхаус с двумя мастер-спальнями и террасой 60 м².</p>
+      </article>
+
+      <article class="project-card" data-cat="commerce">
+        <div class="project-photo" style="background-image:url('https://images.unsplash.com/photo-1497366216548-37526070297c?w=1400&q=80&auto=format&fit=crop');"></div>
+        <div class="project-meta"><span class="cat">Коммерция</span><span class="year">2023</span></div>
+        <h3>Офисный центр Nord</h3>
+        <div class="project-params"><span><b>4200</b> м²</span><span><b>18 мес</b></span><span>Санкт-Петербург</span></div>
+        <p class="project-desc">Бизнес-центр класса B+ с подземным паркингом и лобби 2 уровня.</p>
+      </article>
+
+      <article class="project-card" data-cat="commerce">
+        <div class="project-photo" style="background-image:url('https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?w=1400&q=80&auto=format&fit=crop');"></div>
+        <div class="project-meta"><span class="cat">Коммерция</span><span class="year">2025</span></div>
+        <h3>Ресторан «Пассаж»</h3>
+        <div class="project-params"><span><b>620</b> м²</span><span><b>7 мес</b></span><span>Москва, Патриаршие</span></div>
+        <p class="project-desc">Ресторан на 120 посадочных мест с открытой кухней и винным погребом.</p>
+      </article>
+
+      <article class="project-card" data-cat="commerce">
+        <div class="project-photo" style="background-image:url('https://images.unsplash.com/photo-1497366754035-f200968a6e72?w=1400&q=80&auto=format&fit=crop');"></div>
+        <div class="project-meta"><span class="cat">Коммерция</span><span class="year">2024</span></div>
+        <h3>Шоурум мебели</h3>
+        <div class="project-params"><span><b>480</b> м²</span><span><b>4 мес</b></span><span>Москва, ЦАО</span></div>
+        <p class="project-desc">Двухуровневый шоурум с индивидуальными подиумами и подсветкой.</p>
+      </article>
+
+      <article class="project-card" data-cat="reconstruct">
+        <div class="project-photo" style="background-image:url('https://images.unsplash.com/photo-1512917774080-9991f1c4c750?w=1400&q=80&auto=format&fit=crop');"></div>
+        <div class="project-meta"><span class="cat">Реконструкция</span><span class="year">2024</span></div>
+        <h3>Реконструкция особняка</h3>
+        <div class="project-params"><span><b>480</b> м²</span><span><b>11 мес</b></span><span>Москва, Плющиха</span></div>
+        <p class="project-desc">Реконструкция здания 1912 года: усиление фундамента, надстройка мансарды, современная инженерия.</p>
+      </article>
+
+      <article class="project-card" data-cat="reconstruct">
+        <div class="project-photo" style="background-image:url('https://images.unsplash.com/photo-1518005020951-eccb494ad742?w=1400&q=80&auto=format&fit=crop');"></div>
+        <div class="project-meta"><span class="cat">Реконструкция</span><span class="year">2025</span></div>
+        <h3>Реконструкция дома 1950-х</h3>
+        <div class="project-params"><span><b>210</b> м²</span><span><b>8 мес</b></span><span>Мск. обл., Барвиха</span></div>
+        <p class="project-desc">Полная реконструкция с сохранением исторических фасадов и заменой инженерии.</p>
+      </article>
+
+      <article class="project-card" data-cat="reconstruct">
+        <div class="project-photo" style="background-image:url('https://images.unsplash.com/photo-1487958449943-2429e8be8625?w=1400&q=80&auto=format&fit=crop');"></div>
+        <div class="project-meta"><span class="cat">Реконструкция</span><span class="year">2022</span></div>
+        <h3>Реконструкция промзоны</h3>
+        <div class="project-params"><span><b>2100</b> м²</span><span><b>14 мес</b></span><span>СПб, Лиговский</span></div>
+        <p class="project-desc">Реконструкция здания завода начала XX века под креативное пространство и коворкинг.</p>
+      </article>
+
+    </div>
+    <p class="empty" id="emptyState" hidden>В этой категории пока нет проектов.</p>
+  </div>
+</section>
+
+</main>
+
+<footer class="site-footer">
+  <div class="wrap footer-cols">
+    <div>
+      <div class="brand"><span class="brand-mark"></span>BuildPro</div>
+      <p class="footer-about">Проектирование, строительство и ремонт объектов под ключ с 2013 года.</p>
+    </div>
+    <div>
+      <h5>Компания</h5>
+      <ul><li><a href="index.html#about">О компании</a></li><li><a href="index.html#services">Услуги</a></li><li><a href="projects.html">Проекты</a></li><li><a href="index.html#process">Процесс</a></li></ul>
+    </div>
+    <div>
+      <h5>Контакты</h5>
+      <ul><li>+7 (495) 123-45-67</li><li>hello@buildpro.ru</li><li>Москва, Пресненская наб., 12</li><li>Пн–Пт 9:00–19:00</li></ul>
+    </div>
+    <div>
+      <h5>Соцсети</h5>
+      <ul><li><a href="#">Telegram</a></li><li><a href="#">ВКонтакте</a></li><li><a href="#">YouTube</a></li></ul>
+    </div>
+  </div>
+  <div class="wrap footer-bottom">
+    <span>© 2013–2026 BuildPro. Все права защищены.</span>
+    <span>ИНН 7701234567 · ОГРН 1137746000000</span>
+    <span class="footer-legal"><a href="#">Политика конфиденциальности</a> · <a href="#">Договор оферты</a></span>
+  </div>
+</footer>
+
+<button type="button" class="to-top" id="toTop" aria-label="Наверх">↑</button>
+
+<script src="js/main.js"></script>
+</body>
+</html>
